@@ -6,6 +6,7 @@ android_app_import {
 	apk: "proprietary/system_ext/priv-app/AppGallery/AppGallery.apk",
 	owner: "huawei",
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -17,6 +18,7 @@ android_app_import {
 	apk: "proprietary/system_ext/priv-app/HMS_Core/HMS_Core.apk",
 	owner: "huawei",
 	presigned: true,
+	preprocessed: true,
 	dex_preopt: {
 		enabled: false,
 	},
