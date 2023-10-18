@@ -8,3 +8,10 @@ PRODUCT_PACKAGES += \
     privapp-permissions-hms_core.xml \
     default_permissions_com.huawei.hms.xml \
     default_permissions_com.huawei.appmarket.xml
+
+ifeq ($(TARGET_INCLUDE_AURORA),true)
+	PRODUCT_PACKAGES += \
+	AuroraStore \
+	AuroraServices \
+	privapp-permissions-auroraservices.xml
+endif
